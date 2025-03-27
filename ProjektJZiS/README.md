@@ -10,7 +10,6 @@ Gra została stworzona jako projekt edukacyjny.
 ## Funkcje gry
 - ✅ Walki z goblinami w systemie turowym
 - ✅ Tryb nocny
-- ✅ Muzyka
 
 
 
