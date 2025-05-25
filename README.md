@@ -31,9 +31,9 @@ Projekt jest responsywny i estetyczny, z naciskiem na czytelność oraz prostot�
 ## Struktura projektu
 
 ```
-AdameX7.github.io/
+adamglowienke03.github.io/
 ├── images/
-│   └── cat-profile.jpg
+│   └── cat-profile.webp
 ├── index.html
 ├── styleIndex.css
 └── ProjektGry/
@@ -64,5 +64,5 @@ AdameX7.github.io/
 ## Autor
 
 **Adam Głowienke**  
-[GitHub – AdameX7](https://github.com/AdameX7)  
+[GitHub – adamglowienke03](https://github.com/adamglowienke03)  
 e-mail: glowienke.adam03@gmail.com
