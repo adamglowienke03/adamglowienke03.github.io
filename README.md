@@ -1,6 +1,6 @@
 # Portfolio
 
-To jest prosty projekt portfolio web developera, prezentujący umiejętności, projekty oraz dane kontaktowe. Strona została napisana w HTML i CSS, z lekkim użyciem JavaScript (opcjonalnie).
+To jest prosty projekt portfolio web developera, prezentujący umiejętności, projekty oraz dane kontaktowe. Strona została napisana w HTML i CSS.
 
 ---
 
@@ -10,7 +10,6 @@ To jest prosty projekt portfolio web developera, prezentujący umiejętności, p
 - [Struktura projektu](#struktura-projektu)
 - [Technologie](#technologie)
 - [Sposób uruchomienia](#sposób-uruchomienia)
-- [Zrzuty ekranu](#zrzuty-ekranu)
 - [Autor](#autor)
 
 ---
@@ -41,19 +40,17 @@ AdameX7.github.io/
     └── ... 
 ```
 
-- **index.html** – główny plik strony.
-- **styleIndex.css** – arkusz stylów.
-- **images/** – folder na zdjęcia (np. profilowe).
-- **index.js** – skrypt JS (opcjonalny, np. zegar).
-- **ProjektJZiS/** – przykładowy projekt.
+- **index.html** – główny plik strony
+- **styleIndex.css** – arkusz stylów
+- **images/** – folder na zdjęcia
+- **ProjektGry/** – przykładowy projekt
 
 ---
 
 ## Technologie
 
-- **HTML5**
-- **CSS3** (z wykorzystaniem zmiennych CSS i flexboxa)
-- **JavaScript** (opcjonalnie, np. do dynamicznych elementów)
+- **HTML**
+- **CSS**
 - **Responsywność** (media queries)
 
 ---
