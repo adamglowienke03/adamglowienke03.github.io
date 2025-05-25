@@ -1,103 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="mediaQ.css" />
+    <title>Portfolio – Jan Kowalski</title>
+    <link rel="shortcut icon" href="./images/cat-profile.jpg">
     <link rel="stylesheet" href="styleIndex.css" />
-    <script src="index.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Jan Kowalski</h1>
-        <div id="clock"></div>
+        <div class="header-content">
+            <img class="profile-img" src="./images/cat-profile.jpg" alt="Zdjęcie profilowe">
+            <div>
+                <h1>Jan Kowalski</h1>
+                <p class="subtitle">Web Developer &amp; Entuzjasta Nowych Technologii</p>
+            </div>
+        </div>
     </header>
 
     <section>
         <aside>
-        <figure>
-            <img src="./images/cat-profile.jpg" alt="Zdjęcie profilowe">
-        </figure>
-            <hr>
-            
-                <div class="wyksztalcenie">
-                    <h3>Wykształcenie</h3>
-                    <ul>
-                        <li>Inżynier Informatyki – [Nazwa Uczelni] [Rok rozpoczęcia] [Rok ukończenia]</li>
-                        <li> Specjalizacja: Programowanie aplikacji webowych</li>
-                    </ul>
-                </div>
-
-                <hr>
-
-                <div class="dane-kontaktowe">
-                    <h3>Dane kontaktowe:</h3>
-                    <p><b>e-mail:</b> jankowalski@gmail.com</p>
-                    <p><b>telefon:</b> 123 456 789</p>
-                </div>
-                <hr>
-                <h3>Języki:</h3>
-                <ul class="languages">
-                    <li>Angielski: <span style="color: red;">B2</span></li>
-                    <li>Polski: <span style="color: red;">na 6 z plusem</span></li>
+            <div class="card">
+                <h3>Dane kontaktowe</h3>
+                <ul>
+                    <li><b>e-mail:</b> <a href="mailto:jankowalski@gmail.com">jankowalski@gmail.com</a></li>
+                    <li><b>telefon:</b> <a href="tel:123456789">123 456 789</a></li>
                 </ul>
+            </div>
 
-                <hr>
-                <nav>
-                    <h3>Projekty:</h3>
-                    <ul>
-                        <li>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <a target="_blank" href="../ProjektJZiS/index.html">Projekt</a>
-                                    </td>
-                                    <td>
-                                        <a target="_blank" href="../ProjektJZiS/README.md">Dokumentacja</a>
-                                    </td>
-                                    <td>
-                                        <a target="_blank" href="https://github.com/AdameX7/AdameX7.github.io">Repozytorium</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
-        
+            <div class="card">
+                <h3>Języki</h3>
+                <ul>
+                    <li><b>Angielski</b>: <span class="lang-level">B2</span></li>
+                    <li><b>Polski</b>: <span class="lang-level">na 6 z plusem</span></li>
+                </ul>
+            </div>
 
+            <div class="card">
+                <h3>Projekty</h3>
+                <ul>
+                    <li>
+                        <a target="_blank" href="index.html">Portfolio</a> |
+                        <a target="_blank" href="https://github.com/AdameX7/AdameX7.github.io">Repozytorium</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="../ProjektGry/index.html">Gra turowa</a> |
+                        <a target="_blank"
+                            href="https://github.com/AdameX7/AdameX7.github.io/tree/main/ProjektGry">Repozytorium</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
 
         <main>
-            <p>
-                Cześć! 👋 Jestem Jan – Frontend Developer
-                Jako pasjonat nowoczesnych technologii webowych, tworzę dynamiczne, responsywne i intuicyjne interfejsy
-                użytkownika. Moim celem jest dostarczanie szybkich, estetycznych i funkcjonalnych aplikacji, które
-                poprawiają doświadczenie użytkownika.
-            </p>
+            <div class="card main-card">
+                <h2>O mnie</h2>
+                <p>
+                    Cześć! 👋 Mam na imię Jan i jestem entuzjastą tworzenia nowoczesnych, funkcjonalnych i estetycznych
+                    aplikacji internetowych. Od kiedy pierwszy raz zmodyfikowałem plik HTML w Notatniku, wiedziałem, że
+                    świat web developmentu to moje miejsce.
+                </p>
+                <p>
+                    Największą satysfakcję daje mi moment, gdy linie kodu zamieniają się w coś realnego — interfejs,
+                    który działa płynnie, wygląda dobrze i ułatwia życie użytkownikom. Uwielbiam uczyć się nowych
+                    technologii, eksperymentować z designem i optymalizować wszystko, co się da.
+                </p>
+                <p>
+                    Poza kodem znajdziesz mnie przy szachownicy ♟️, z kotem na kolanach 🐱 lub przy muzyce
+                    elektronicznej, którą tworzę hobbystycznie. Cenię sobie minimalizm, dobrze napisany kod i ludzi z
+                    pasją.
+                </p>
+                <hr>
+                <h3>Umiejętności / Technologie</h3>
+                <ul class="skills">
+                    <li>HTML <span class="skill-level">zaawansowany</span></li>
+                    <li>CSS <span class="skill-level">zaawansowany</span></li>
+                    <li>JavaScript <span class="skill-level">średniozaawansowany</span></li>
+                    <li>React <span class="skill-level">podstawowy</span></li>
+                    <li>MySQL <span class="skill-level">średniozaawansowany</span></li>
+                    <li>C# <span class="skill-level">średniozaawansowany</span></li>
+                    <li>C <span class="skill-level">podstawowy</span></li>
+                    <li>Linux <span class="skill-level">średniozaawansowany</span></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Wykształcenie</h3>
+                <ul>
+                    <li><b>Informatyka</b> – Uniwersytet Morski w Gdyni [2023]–[teraz]</li>
+                </ul>
+            </div>
         </main>
     </section>
 
     <footer>
-        <hr />
-        <a class="git" href="https://github.com" target="_blank">GitHub</a>
-        <div class="contact">
-            <div>
-                <p>Dane kontaktowe:</p>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="mailto:glowienke.adam03@gmail.com">e-mail</a>
-                    </li>
-                    <li>
-                        <a href="tel:602 398 603">tel</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <p class="footer-note">&copy; 2025 Jan Kowalski</p>
     </footer>
 </body>
 
