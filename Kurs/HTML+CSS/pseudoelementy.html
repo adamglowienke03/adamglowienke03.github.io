@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 20px;
+        }
+
+        p::first-line{
+            font-weight: bold;
+        }
+
+        p::selection{
+            color: red;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        li::before{
+            content: "=>";
+        }
+
+        .popular-link::after{
+            content: " - HOT!";
+            color: red;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+        <li>
+            el1
+        </li>
+        <li>
+            el2
+        </li>
+        <li>
+            el3
+        </li>
+        <li>
+            <a href="#" class="popular-link">Blog</a>
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+[
+  {
+    "name": "HTML+CSS",
+    "type": "directory",
+    "children": [
+      {
+        "name": "album.html",
+        "type": "file",
+        "path": "HTML+CSS/album.html"
+      },
+      {
+        "name": "form.html",
+        "type": "file",
+        "path": "HTML+CSS/form.html"
+      },
+      {
+        "name": "pseudoelementy.html",
+        "type": "file",
+        "path": "HTML+CSS/pseudoelementy.html"
+      },
+      {
+        "name": "tab-pricing.html",
+        "type": "file",
+        "path": "HTML+CSS/tab-pricing.html"
+      },
+      {
+        "name": "zadanie-pseudoelementy.html",
+        "type": "file",
+        "path": "HTML+CSS/zadanie-pseudoelementy.html"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "name": "Notatki",
+    "type": "directory",
+    "children": [
+      {
+        "name": "JednostkiCSS.md",
+        "type": "file",
+        "path": "Notatki/JednostkiCSS.md"
+      }
+    ]
+  },
+  {
+    "name": "Pictures",
+    "type": "directory",
+    "children": [
+      {
+        "name": "pic1.png",
+        "type": "file",
+        "path": "Pictures/pic1.png"
+      }
+    ]
+  },
+  {
+    "name": "files.json",
+    "type": "file",
+    "path": "files.json"
+  },
+  {
+    "name": "generate_structure.py",
+    "type": "file",
+    "path": "generate_structure.py"
+  },
+  {
+    "name": "index.html",
+    "type": "file",
+    "path": "index.html"
+  }
+]

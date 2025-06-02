@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::selection{
+            background-color: orange;
+        }
+        p::first-letter{
+            font-weight: bold;
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+        p::before{
+            content: "@";
+            border: 2px dotted red;
+        }
+        p:last-child::after{
+            content: " HOT";
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et consequatur culpa enim dolor ex minima error officiis. Minus tempora saepe alias suscipit perferendis voluptas quos cumque voluptatibus nemo officiis.</p>
+
+    </div>
+</body>
+</html>

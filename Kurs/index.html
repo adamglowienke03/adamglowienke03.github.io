@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drzewo katalogów</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: rgb(212, 211, 211);
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+    li::before {
+      content: "📄 ";
+    }
+    li.directory::before {
+      content: "📁 ";
+    }
+    a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>Struktura plików</h2>
+  <div id="tree">Ładowanie...</div>
+
+  <script>
+    async function loadFileTree() {
+      try {
+        const response = await fetch('files.json');
+        const data = await response.json();
+        const container = document.getElementById('tree');
+        container.innerHTML = '';
+        container.appendChild(renderTree(data));
+      } catch (error) {
+        document.getElementById('tree').innerText = 'Błąd podczas ładowania plików.';
+        console.error(error);
+      }
+    }
+
+    function renderTree(items) {
+      const ul = document.createElement('ul');
+
+      items.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item.name;
+
+        if (item.type === 'directory') {
+          li.classList.add('directory');
+          if (item.children && item.children.length > 0) {
+            li.appendChild(renderTree(item.children));
+          }
+        } else if (item.type === 'file') {
+          const a = document.createElement('a');
+          a.href = item.path;
+          a.textContent = item.name;
+          a.target = "_blank";
+          li.innerHTML = '';
+          li.appendChild(a);
+        }
+
+        ul.appendChild(li);
+      });
+
+      return ul;
+    }
+
+    loadFileTree();
+  </script>
+</body>
+</html>
