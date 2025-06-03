@@ -33,7 +33,13 @@
   {
     "name": "JavaScript",
     "type": "directory",
-    "children": []
+    "children": [
+      {
+        "name": "obiekt-zadanie.html",
+        "type": "file",
+        "path": "JavaScript/obiekt-zadanie.html"
+      }
+    ]
   },
   {
     "name": "Notatki",
@@ -43,6 +49,16 @@
         "name": "JednostkiCSS.md",
         "type": "file",
         "path": "Notatki/JednostkiCSS.md"
+      },
+      {
+        "name": "Obiekty.md",
+        "type": "file",
+        "path": "Notatki/Obiekty.md"
+      },
+      {
+        "name": "TworzenieZmiennych.md",
+        "type": "file",
+        "path": "Notatki/TworzenieZmiennych.md"
       }
     ]
   },
