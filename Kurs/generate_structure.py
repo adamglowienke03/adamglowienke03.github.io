@@ -24,7 +24,7 @@ def walk_directory(path, root_rel_path=""):
             })
     return items
 
-ROOT_DIR = "."
+ROOT_DIR = "./Kurs/"
 
 structure = walk_directory(ROOT_DIR)
 
