@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .columns{
+            -moz-column-count: 3; /* dla firefoxa */ 
+            -webkit-column-count: 3; /* dla chrome itp. */
+            column-count: 3;
+        }
+        .columns2{
+            -moz-column-width: 60px; /* dla firefoxa */ 
+            -webkit-column-width: 60px; /* dla chrome itp. */
+            column-width: 60px;
+        }
+        .columns, .columns2{
+            column-gap: 30px;
+            column-rule: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p class="columns">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime! Illum sint mollitia perferendis, at iste tenetur eveniet ad non, cupiditate, reiciendis soluta. Deleniti dolores, ex ut aliquam iure maiores! Impedit, a iste animi, repudiandae id deserunt quaerat laborum sint non autem temporibus repellendus! Reiciendis, eos error. Magnam, aperiam aliquam?</p>
+    <p class="columns2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, maxime! Illum sint mollitia perferendis, at iste tenetur eveniet ad non, cupiditate, reiciendis soluta. Deleniti dolores, ex ut aliquam iure maiores! Impedit, a iste animi, repudiandae id deserunt quaerat laborum sint non autem temporibus repellendus! Reiciendis, eos error. Magnam, aperiam aliquam?</p>
+
+</body>
+</html>

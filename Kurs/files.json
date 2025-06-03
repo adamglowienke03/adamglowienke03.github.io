@@ -24,6 +24,11 @@
         "path": "HTML+CSS/tab-pricing.html"
       },
       {
+        "name": "text-columns.html",
+        "type": "file",
+        "path": "HTML+CSS/text-columns.html"
+      },
+      {
         "name": "zadanie-pseudoelementy.html",
         "type": "file",
         "path": "HTML+CSS/zadanie-pseudoelementy.html"
@@ -35,9 +40,77 @@
     "type": "directory",
     "children": [
       {
+        "name": "modulo-test.html",
+        "type": "file",
+        "path": "JavaScript/modulo-test.html"
+      },
+      {
         "name": "obiekt-zadanie.html",
         "type": "file",
         "path": "JavaScript/obiekt-zadanie.html"
+      }
+    ]
+  },
+  {
+    "name": "MiniProjekty",
+    "type": "directory",
+    "children": [
+      {
+        "name": "pizzeria",
+        "type": "directory",
+        "children": [
+          {
+            "name": "images",
+            "type": "directory",
+            "children": [
+              {
+                "name": "cook-1375788_960_720.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/cook-1375788_960_720.jpg"
+              },
+              {
+                "name": "motor-scooter-4837310_960_720.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/motor-scooter-4837310_960_720.jpg"
+              },
+              {
+                "name": "olive-oil-1412361__340.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/olive-oil-1412361__340.jpg"
+              },
+              {
+                "name": "pizza-23477_960_720.png",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/pizza-23477_960_720.png"
+              },
+              {
+                "name": "pizza-3007395_1280.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/pizza-3007395_1280.jpg"
+              },
+              {
+                "name": "prague-2852349_960_720.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/prague-2852349_960_720.jpg"
+              },
+              {
+                "name": "wood-2203740_1280.jpg",
+                "type": "file",
+                "path": "MiniProjekty/pizzeria/images/wood-2203740_1280.jpg"
+              }
+            ]
+          },
+          {
+            "name": "index.html",
+            "type": "file",
+            "path": "MiniProjekty/pizzeria/index.html"
+          },
+          {
+            "name": "style.css",
+            "type": "file",
+            "path": "MiniProjekty/pizzeria/style.css"
+          }
+        ]
       }
     ]
   },
@@ -56,6 +129,11 @@
         "path": "Notatki/Obiekty.md"
       },
       {
+        "name": "TernaryOperator.md",
+        "type": "file",
+        "path": "Notatki/TernaryOperator.md"
+      },
+      {
         "name": "TworzenieZmiennych.md",
         "type": "file",
         "path": "Notatki/TworzenieZmiennych.md"
@@ -72,11 +150,6 @@
         "path": "Pictures/pic1.png"
       }
     ]
-  },
-  {
-    "name": "files.json",
-    "type": "file",
-    "path": "files.json"
   },
   {
     "name": "generate_structure.py",
