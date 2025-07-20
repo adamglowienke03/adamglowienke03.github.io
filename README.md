@@ -35,15 +35,12 @@ adamglowienke03.github.io/
 ├── images/
 │   └── cat-profile.webp
 ├── index.html
-├── styleIndex.css
-└── ProjektGry/
-    └── ... 
+└── styleIndex.css
 ```
 
+- **images/** – folder na zdjęcia
 - **index.html** – główny plik strony
 - **styleIndex.css** – arkusz stylów
-- **images/** – folder na zdjęcia
-- **ProjektGry/** – przykładowy projekt
 
 ---
 
